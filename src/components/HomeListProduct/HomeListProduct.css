@@ -1,0 +1,37 @@
+.list_product {
+  padding: 30px 0;
+}
+
+.sub_title {
+  text-align: center;
+  font-size: 1.6rem;
+  margin: 12px 0;
+}
+
+.spacing {
+  width: 150px;
+  height: 3px;
+  background-color: blue;
+  margin: 0 auto;
+}
+
+.list_flex {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 30px;
+  margin: 30px 0;
+}
+.see_more {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn_more {
+  border: 1px solid #d3b673;
+  background-color: #d3b673;
+  padding: 8px 25px;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}

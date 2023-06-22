@@ -1,0 +1,54 @@
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+
+.about .body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.about h3 {
+  font-size: 2.7rem;
+  color: #ffffff;
+  text-align: center;
+}
+
+.about .about_top p {
+  font-size: 1.7rem;
+  color: #ffffff;
+  text-align: center;
+  padding: 15px 0;
+}
+
+
+.about_body {
+  margin: 30px;
+}
+
+.about_body .sub_about {
+  color: black;
+  margin: 13px 0;
+  font-size: 1.7rem;
+  text-align: center;
+  padding: 15px 0;
+}
+.content_about {
+  color: #333;
+  font-size: 2rem;
+  margin: 15px 0;
+}
+
+.image_about {
+  width: 70%;
+  height: 500px;
+  object-fit: cover;
+  margin: 40px auto;
+  display: block;
+}

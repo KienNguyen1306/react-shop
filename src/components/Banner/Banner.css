@@ -1,0 +1,38 @@
+.banner {
+  width: 100%;
+  height: calc(100vh - 300px);
+  object-fit: cover;
+}
+.banner .body {
+  position: relative;
+}
+
+.banner .image img {
+  width: 100%;
+  height: calc(100vh - 300px);
+  object-fit: cover;
+}
+
+.btn-prev,
+.btn-next {
+  position: absolute;
+  padding: 8px;
+  border-radius: 50%;
+  top: 50%;
+  transform: translateX(-50%);
+  background-color: transparent;
+  border: none;
+  font-size: 4rem;
+  cursor: pointer;
+}
+.btn-next {
+  right: 30px;
+}
+.btn-prev {
+  left: 30px;
+}
+
+.icon-prev polyline,
+.icon-next polyline {
+  stroke: white;
+}

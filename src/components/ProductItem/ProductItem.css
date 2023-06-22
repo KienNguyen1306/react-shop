@@ -1,0 +1,80 @@
+.item {
+  border: 1px solid #ccc;
+  border-radius: 2px;
+}
+
+.item .image {
+  height: 200px;
+  position: relative;
+}
+.item .discount {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background-color: #000000;
+  color: #fff;
+  border-radius: 100%;
+  padding: 8px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.6rem;
+}
+
+.item .image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.item .info_product {
+  padding: 8px 3px;
+}
+
+.item .name_product {
+  font-size: 1.4rem;
+  color: #111111;
+}
+.item .name_product a {
+  font-size: 1.4rem;
+  color: #111111;
+  text-decoration: none;
+}
+
+.item .price_product {
+  font-size: 1.4rem;
+  margin: 11px 0;
+  color: #e84545;
+}
+
+.item .price_product span {
+  opacity: 0.6;
+  margin-right: 0.5rem;
+  text-decoration: line-through;
+}
+
+.item .buy {
+  margin: 8px;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: aquamarine;
+  text-align: center;
+  border: 1px solid #d3b673;
+  color: #fff;
+  background: #d3b673;
+  font-size: 1.6rem;
+  transition: 0.1s all ease-in;
+  cursor: pointer;
+}
+
+.item .buy:hover {
+  background: #fff;
+  color: #000000;
+}
+
+.Toastify__toast {
+  box-shadow: none;
+  border: 1px solid #ccc;
+}
